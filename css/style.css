@@ -1,0 +1,87 @@
+.first-title {
+	padding-top: 80px;
+}
+
+#perfil h1 {
+	font-weight: 900;
+
+}
+#bio h3 {
+	padding-top: 100px;
+	text-align: center;
+	font-weight: 300;
+	color: #A3A3A3;
+	line-height: 36px;
+}
+
+#menu ul {
+	padding-top:110px;
+	margin:0px;
+	list-style:none;
+	text-align: right;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+	padding: 2px 20px;
+	display: inline-block;
+ 
+	/* visual do link */
+	font-size: 18px;
+	font-weight: 700;
+	color: #444;
+	text-decoration: none;
+}
+
+#portfolio {
+	width: 100%;
+	padding-top: 100px;
+	vertical-align: center;
+}
+
+
+
+-------
+-------
+figure {
+	margin: 0;
+    position: relative;
+    background-color: #fff;
+}
+
+figure img {
+    max-width: 100%;
+    display: block;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+figcaption {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    color: #444;
+}
+
+figcaption h4 {
+	font-weight: 900;
+}
+
+figure:hover img {
+    opacity: 0.10;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+figure:hover  figcaption{
+    opacity: 1;
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    transition: all .1s ease;
+}
+
